@@ -1,0 +1,10 @@
+[package]
+name = "whiteboard"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.41.1", features = ["full"] }
+tokio-tungstenite = "*"
+futures-util = "0.3.31"
+lazy_static = "1.5"
